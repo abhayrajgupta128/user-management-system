@@ -67,3 +67,5 @@ The server will now be running on http://localhost:4000.
 1. Navigate to the frontend directory: cd client
 2. Install the dependencies: yarn install
 3. Start the React development server: yarn start
+
+The React App will now be running on  http://localhost:3000.

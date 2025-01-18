@@ -30,6 +30,7 @@ export const useHandleDropHobby = (
         });
 
         if (response.status === 200) {
+          window.location.reload();
           const updatedUser = await response.data;
           setUsers((prevUsers) =>
             prevUsers.map((user) => (user._id === userId ? updatedUser : user))
